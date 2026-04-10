@@ -1,3 +1,5 @@
+![AI Survey Validation](assets/visual.svg)
+
 # AI-assisted Survey Validation for Multi-country Data Collection
 
 ## Overview
