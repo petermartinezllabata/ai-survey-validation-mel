@@ -1,5 +1,3 @@
-![AI Survey Validation](assets/visual.svg)
-
 # AI-assisted Survey Validation for Multi-country Data Collection
 
 ## Overview
@@ -7,6 +5,8 @@
 Large-scale surveys used in international and governance contexts often suffer from inconsistencies in question design, unclear definitions, and limited comparability across countries. These issues directly affect data quality, statistical analysis, and policy relevance.
 
 This project explores how Large Language Models (LLMs) can support the systematic review of survey instruments (e.g. XLSForms), identifying design flaws before deployment and improving the reliability and usability of collected data.
+
+![AI Survey Validation](assets/visual.svg)
 
 ## Objective
 
