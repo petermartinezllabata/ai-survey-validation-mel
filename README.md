@@ -6,8 +6,6 @@ Large-scale surveys used in international and governance contexts often suffer f
 
 This project explores how Large Language Models (LLMs) can support the systematic review of survey instruments (e.g. XLSForms), identifying design flaws before deployment and improving the reliability and usability of collected data.
 
-![AI Survey Validation](assets/visual.svg)
-
 ## Objective
 
 To develop a lightweight, AI-assisted workflow that evaluates survey questions and flags issues related to:
@@ -21,6 +19,8 @@ To develop a lightweight, AI-assisted workflow that evaluates survey questions a
 ## Approach
 
 The system uses structured prompts to simulate expert-level review of survey questions.
+
+![AI Survey Validation](assets/visual.svg)
 
 ### Input
 - Survey questions extracted from XLSForms  
