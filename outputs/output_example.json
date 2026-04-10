@@ -1,0 +1,121 @@
+[
+  {
+    "question": "1.1. Does the data on police provided in this questionnaire cover the entire geographical territory of your country?",
+    "issues": [
+      {
+        "dimension": "Clarity and precision",
+        "severity": "low",
+        "explanation": "The term 'entire geographical territory' may be interpreted differently across countries (e.g., inclusion of overseas territories or autonomous regions).",
+        "suggested_fix": "Clarify whether the term includes all administrative regions, autonomous areas, and overseas territories."
+      },
+      {
+        "dimension": "Comparability",
+        "severity": "medium",
+        "explanation": "Different interpretations of territorial coverage may affect cross-country comparability.",
+        "suggested_fix": "Provide a standardized definition or examples of what should be included."
+      }
+    ],
+    "overall_assessment": "Clear binary question but requires tighter definition to ensure comparability across countries."
+  },
+  {
+    "question": "1.3. Does more than one police force exist in your country?",
+    "issues": [],
+    "overall_assessment": "Well-structured and clear question with strong analytical usability."
+  },
+  {
+    "question": "Which police units are INCLUDED in the data reported in this questionnaire?",
+    "issues": [
+      {
+        "dimension": "Measurement quality",
+        "severity": "medium",
+        "explanation": "Open-text format may lead to inconsistent naming conventions across countries.",
+        "suggested_fix": "Provide predefined categories or guidance on naming conventions."
+      },
+      {
+        "dimension": "Analytical usability",
+        "severity": "high",
+        "explanation": "Unstructured responses will require significant post-processing and may reduce comparability.",
+        "suggested_fix": "Use a structured list with selectable options and allow an 'Other (specify)' field."
+      }
+    ],
+    "overall_assessment": "Important question but poorly structured for consistent analysis across countries."
+  },
+  {
+    "question": "2.1. Percentage of female and male personnel serving in the police",
+    "issues": [
+      {
+        "dimension": "Measurement quality",
+        "severity": "medium",
+        "explanation": "It is unclear whether percentages should sum to 100% or whether missing categories are allowed.",
+        "suggested_fix": "Explicitly state that male and female percentages must sum to 100% unless otherwise specified."
+      },
+      {
+        "dimension": "Comparability",
+        "severity": "medium",
+        "explanation": "Different interpretations of personnel categories (e.g., inclusion of administrative staff) may affect comparability.",
+        "suggested_fix": "Define what counts as 'personnel' (sworn officers, civilian staff, etc.)."
+      }
+    ],
+    "overall_assessment": "Core indicator with high value, but requires clearer definitions to ensure consistency and comparability."
+  },
+  {
+    "question": "2.2. Percentage of women and men serving in regional and specialist units",
+    "issues": [
+      {
+        "dimension": "Structure",
+        "severity": "medium",
+        "explanation": "The combination of applicability, percentages, and availability within the same grid increases complexity and risk of inconsistent responses.",
+        "suggested_fix": "Separate applicability and data entry steps or provide clearer instructions within the grid."
+      },
+      {
+        "dimension": "Analytical usability",
+        "severity": "medium",
+        "explanation": "Mixing 'Not applicable' and 'Not available' may complicate analysis if not clearly encoded.",
+        "suggested_fix": "Ensure standardized coding for missing vs non-applicable values."
+      }
+    ],
+    "overall_assessment": "Comprehensive but complex structure that may introduce data quality risks without strong guidance."
+  },
+  {
+    "question": "2.4. In 2024, were any roles, units or services in policing closed to women?",
+    "issues": [
+      {
+        "dimension": "Conceptual validity",
+        "severity": "medium",
+        "explanation": "The concept of 'closed to women' may be interpreted differently depending on legal vs practical restrictions.",
+        "suggested_fix": "Clarify whether this refers to formal legal restrictions, informal practices, or both."
+      }
+    ],
+    "overall_assessment": "Relevant policy question but requires clearer conceptual definition to ensure consistent interpretation."
+  },
+  {
+    "question": "2.5. In 2024, did your country require any individuals to perform policing duties as part of compulsory national service or conscription?",
+    "issues": [
+      {
+        "dimension": "Clarity and precision",
+        "severity": "low",
+        "explanation": "The definition provided is helpful but still leaves room for interpretation regarding indirect roles.",
+        "suggested_fix": "Provide examples of included and excluded roles."
+      }
+    ],
+    "overall_assessment": "Strong question with good definition, minor clarification could improve consistency."
+  },
+  {
+    "question": "2.6. Percentage of men and women per levels of seniority in the police",
+    "issues": [
+      {
+        "dimension": "Comparability",
+        "severity": "high",
+        "explanation": "Levels of seniority vary significantly across countries, even with examples provided.",
+        "suggested_fix": "Include a mapping guideline or require countries to align national ranks to standardized categories."
+      },
+      {
+        "dimension": "Measurement quality",
+        "severity": "medium",
+        "explanation": "Potential overlap between categories may lead to inconsistent reporting.",
+        "suggested_fix": "Clarify mutually exclusive categorization rules."
+      }
+    ],
+    "overall_assessment": "High analytical value but significant comparability risks across national systems."
+  }
+]
